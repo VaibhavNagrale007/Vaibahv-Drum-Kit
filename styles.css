@@ -1,0 +1,51 @@
+.drum{
+    width: 10rem;
+    height: 10rem;
+    margin: 10% 1.5% 15% 0;
+    font-size: 6rem;
+    color: red;
+    text-shadow: 3px 0 rgb(77, 29, 29);
+    outline: none;
+    border: 10px solid #526392;
+    border-radius: 15px;
+    background-color: white !important;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #00baf8;
+    opacity: 0.5;
+}
+
+body{
+    text-align: center;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: blueviolet;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 10rem;
+    font-weight: lighter;
+    margin: 2% 0 1%;
+    text-shadow: 3px 0 #ffffff;
+}
+.w{
+    background: url("images/crash.png");
+}
+.a{
+    background: url("images/kick.png");
+}
+.s{
+    background: url("images/snare.png");
+}
+.d{
+    background: url("images/tom1.png");
+}
+.j{
+    background: url("images/tom2.png");
+}
+.k{
+    background: url("images/tom3.png");
+}
+.l{
+    background: url("images/tom4.png");
+}
